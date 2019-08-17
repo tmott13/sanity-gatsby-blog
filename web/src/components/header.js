@@ -8,8 +8,8 @@ import styles from './header.module.css'
 const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
   <div className={styles.root}>
     <div className={styles.wrapper}>
-      <div className={styles.branding}>
-        <Link to='/'>{siteTitle}</Link>
+      <div className={styles.branding} class="text-center">
+        <Link to='/'><img src="../src/images/yummyeats.png" style="width:50%;"/></Link>
       </div>
 
       <button className={styles.toggleNavButton} onClick={showNav ? onHideNav : onShowNav}>
