@@ -7,19 +7,19 @@ export default {
     {
       name: 'title',
       type: 'string',
-      title: 'Title'
+      title: 'Yummy Eats ATL'
     },
     {
       name: 'description',
       type: 'text',
       title: 'Description',
-      description: 'Describe your blog for search engines and social media.'
+      description: 'Yummy Eats ATL was made to show off some of the best authentic/traditional restaurants in the Atlanta area.'
     },
     {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',
-      description: 'Add keywords that describes your blog.',
+      description: 'food, atl, atlanta, authentic, traditional, yummy, eats',
       of: [{type: 'string'}],
       options: {
         layout: 'tags'
@@ -28,7 +28,7 @@ export default {
     {
       name: 'author',
       type: 'reference',
-      description: 'Publish an author and set a reference to them here.',
+      description: 'Author of this site is Tanya M',
       title: 'Author',
       to: [{type: 'author'}]
     }
